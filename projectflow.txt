@@ -1,0 +1,10 @@
+Building Pipeline Steps:
+1. Create a github repo and clone it.
+2. Add src folder and then addcode files:
+    - data-ingestion
+    - feature-engineering
+    - model-evaluation
+    - model- training
+    - pre-processing
+3. Add data, models and reports folders in .gitignore
+4. Now add git add., commit and push.
