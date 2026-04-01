@@ -30,6 +30,16 @@ Experiments with DVC:
 17. Change params, re-run code(produce new-experiments)
 18. Now git add,commit and push.
 
+Adding a remote S3 storage to AWS:
+19. Login to AWS Console
+20. Create an IAM user (straight forward process)
+21. Create S3 (enter unique name and create)
+22. pip install dvc[s3]
+23. pip install awscli
+24. 'aws configure' - on terminal
+25. dvc remote add -d dvcstore s3://bucketname
+26. dvc commit-push the exp outcome you want to keep
+27. Finally git add,commit, push.
 
 
 
@@ -85,3 +95,4 @@ ________________________________________________________________________________
     live.log_params(params)
 ______________________________________________________________________________________________________________________
 ______________________________________________________________________________________________________________________
+
